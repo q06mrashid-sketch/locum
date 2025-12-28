@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-cloud text-ink;
+}
+
+button:disabled {
+  @apply opacity-60 cursor-not-allowed;
+}
