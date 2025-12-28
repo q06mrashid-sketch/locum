@@ -75,7 +75,9 @@ export default function SettingsPage() {
               className="border rounded-lg px-3 py-2"
               value={query}
               onChange={(event) => setQuery(event.target.value)}
-              placeholder='newer_than:30d (locum OR shift OR cover OR booking OR rate OR "£")'
+
+              placeholder="newer_than:30d (locum OR shift OR cover OR booking OR rate OR \"£\")"
+
             />
           </label>
           <label className="flex items-center gap-2">
